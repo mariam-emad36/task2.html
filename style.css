@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+header{
+    height: 100vh;
+    background-image: url(photo-1453614512568-c4024d13c247.jpeg);
+    background-repeat: no-repeat;  /* عشان متتكررش*/
+    background-size: cover;  /* عشان الصوره تغطي المحتوه*/
+    background-position: center;  /* عشان تحدد مكان الصوره فوق تحت او نص */
+
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: saddlebrown;
+}
+
+#navbar .one{
+    padding: 10px;
+    margin-left: 90px;
+    color: bisque;
+}
+
+#navbar ul{
+    display: flex;
+    margin-right: 100px;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+#navbar ul li{
+    color: bisque;
+    font-size: 20px;
+    padding: 15px 20px;
+    
+}
+
+header .content{
+    color:bisque;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+}
+
+header .content h1{
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+}
+
+.hh{
+    margin-bottom: 15px;
+}
+
+
+
+header .content p{
+    margin-bottom: 5px;
+}
+
+
+
+header .content .b{
+    padding: 12px;
+    border-radius: 50px;
+    border: 1px solid bisque;
+    color: azure;
+    background-color:saddlebrown;
+    margin-top: 15px;
+    width: 10%;
+}
